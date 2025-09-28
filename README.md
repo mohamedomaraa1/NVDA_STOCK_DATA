@@ -5,6 +5,9 @@
 
 This project is a **real-world, production-grade ETL pipeline** built to showcase end-to-end **Data Engineering principles and practices** using modern open-source tools.
 
+![Project-Pipeline](Images/Project-Architecture.png)
+
+
 ### 💡 What It Does
 
 - Fetches **daily stock market data** from the **Yahoo Finance API**
@@ -110,9 +113,15 @@ This is **not a toy project** — it's a **miniature production data platform** 
    * Access Airflow UI: [http://localhost:8080](http://localhost:8080)
    * Run the `stock_market` DAG
 
+---
+
+![AIRFLOW-UI](Images/Airflow-Connections.png)
+
+---
 3. **Access Metabase**
 
    * [http://localhost:3000](http://localhost:3000)
+
 
 4. **Check MinIO**
 
@@ -121,6 +130,9 @@ This is **not a toy project** — it's a **miniature production data platform** 
 
 ---
 
+![Minio Bucket](Images/MINIO-BUCKET.png)
+
+---
 ## 🧪 Run Tests
 
 ```bash
@@ -139,6 +151,9 @@ Once the DAG completes:
   * Historical price trends
   * Daily volume spikes
   * Moving averages
+---
+
+![Stock Dashboard](Images/Stock-Dashboard.png)
 
 ---
 
@@ -156,3 +171,6 @@ Set your Slack webhook via Airflow connection: `slack`
 ## ✅ Final Thoughts
 
 This project is an excellent **interview-ready portfolio piece** and offers **practical, hands-on skills** across the entire modern data pipeline stack. Whether you're learning or practicing, it’s built to **mirror real-world use cases**.
+
+
+
